@@ -1,0 +1,106 @@
+{
+  "basics": {
+    "name": "François-Xavier Gentilhomme",
+    "label": "Programmer",
+    "picture": "",
+    "email": "gentilhomme.fx@outlook.fr",
+    "phone": "(+33) 6-34-58-34-18",
+    "website": "http://f2x.github.io",
+    "summary": "Summary!",
+    "location": {
+      "address": "3 rue René Dumont",
+      "postalCode": "44300",
+      "city": "Nantes",
+      "countryCode": "FR"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "F2X",
+        "url": "https://github.com/F2X"
+      },
+      {
+        "network": "Twitter",
+        "username": "gentilh_fx",
+        "url": "https://twitter.com/gentilh_fx"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "francoisxaviergentilhomme",
+        "url": "https://www.linkedin.com/in/francoisxaviergentilhomme"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "MyScript",
+      "position": "WebServices Developper",
+      "website": "http://dev.myscript.com",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
+      "summary": "MyScript.",
+      "highlights": [
+//        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+//        "Successfully won Techcrunch Disrupt",
+//        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "website": "http://coderdojo.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Awarded 'Teacher of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Nantes",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ]
+}
