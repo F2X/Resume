@@ -1,0 +1,91 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    color: #272F34;
+}
+
+body {
+    display: flex;
+    margin: auto;
+    max-width: 1024px;
+}
+
+header p {
+    text-transform: uppercase;
+    color: #141311;
+}
+
+aside {
+    flex: none;
+    width: 310px;
+    text-align: justify;
+    padding: 16px 32px;
+    background-color: #efefef;
+}
+
+aside header::before {
+    content: "";
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    border-radius: 50%;
+    margin: auto;
+}
+
+main {
+    padding: 16px;
+    text-align: justify;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+    color: #101A26
+}
+
+h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.img-list li::before {
+    content: "";
+    display: inline-block;
+    margin-right: 6px; 
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+a[href^=tel] {
+    font-weight: bold;
+    color: #101A26
+}
+
+a[href^=mailto] {
+    color: grey;
+}
+
+a[href^=geo] {
+    color: #000000;
+}
+
+.experience-article {
+    display: flex;
+}
+
+.article-title {
+    width: 230px;
+    flex: none;
+    text-align: left;
+}
