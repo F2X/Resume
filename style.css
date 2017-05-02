@@ -20,7 +20,8 @@ aside {
     width: 310px;
     text-align: justify;
     padding: 16px 32px;
-    background-color: #efefef;
+    border-right: 1px solid lightgrey;
+    background-color: rgba(23, 28, 30, .05);
 }
 
 aside header::before {
@@ -28,7 +29,8 @@ aside header::before {
     display: block;
     height: 200px;
     width: 200px;
-    background-color: grey;
+    background: lightgrey url(https://avatars.githubusercontent.com/F2X.png?size=200) no-repeat center;
+    background-size: contain;
     border-radius: 50%;
     margin: auto;
 }
@@ -36,9 +38,11 @@ aside header::before {
 main {
     padding: 16px;
     text-align: justify;
+    background-color: rgba(255, 255, 255, .95);
 }
 
-h2, h3 {
+h2,
+h3 {
     text-transform: uppercase;
     color: #101A26
 }
@@ -58,10 +62,19 @@ ul {
     padding: 0;
 }
 
+ul > ul {
+    list-style-type: square;
+    padding: 0 32px;
+}
+
+li span {
+    display: block;
+}
+
 .img-list li::before {
     content: "";
     display: inline-block;
-    margin-right: 6px; 
+    margin-right: 6px;
     width: 32px;
     height: 32px;
     border-radius: 50%;
