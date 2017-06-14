@@ -1,119 +1,409 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-
-    <title>François-Xavier GENTILHOMME, Curriculum Vitae</title>
-    <meta name="description" content="Curriculum Vitae">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Landing page">
     <meta name="author" content="François-Xavier GENTILHOMME">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>François-Xavier GENTILHOMME</title>
 
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css">
+
+    <link href="css/stylesheet.css" rel="stylesheet">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <aside>
-        <header>
-            <h2>Curriculum Vitae</h2>
-        </header>
-        <div>
-            <h3>Profile</h3>
-            <div>.</div>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$( "#menu-close").click();>Contact</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$( "#menu-close").click();>Resume</a>
+            </li>
+            <li>
+                <a href="#skills" onclick=$( "#menu-close").click();>Skills</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$( "#menu-close").click();>Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$( "#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>François-Xavier GENTILHOMME</h1>
+            <h3>Full Stack Web Developer</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1 text-center">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.linkedin.com/in/francoisxaviergentilhomme"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/F2X"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://stackoverflow.com/users/1518046/fxg"><i class="fa fa-stack-overflow fa-fw fa-3x"></i></a>
+                            </li>
+                        </ul>
+                        <hr class="small">
+                        <p>3 quai Ferdinand Favre<br />44000 Nantes, France</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-phone fa-fw"></i> <a href="tel:+33634583418">(+33) 634583418</a></li>
+                            <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:gentilhomme@outlook.com">gentilhomme.fx@outlook.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="small">
+            <a href="#" class="btn btn-dark btn-lg">Download my resume</a>
         </div>
-        <div>
-            <h3>Contact</h3>
-            <a href="tel:+33634583418">+33 634583418</a>
-            <a href="mailto:gentilhomme.fx@outlook.com">gentilhomme.fx@outlook.com</a>
-            <a href="geo:47.218371,-1.553621;u=35">Nantes, France</a>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Senior web developer with 6 years of experience.</h2>
+                    <p class="lead">Strong background in frontend development, designing HMI and javascript libraries. Also well-versed in
+                        backend development and tooling.</p>
+                </div>
+            </div>
+            <!-- /.row -->
         </div>
-        <div>
-            <h3>Skills</h3>
-            <ul>
-                <li>Front-end</li>
-                    <ul>
-                        <li>HTML5/CSS3/ES6<span>★★★★★</span></li>
-                        <li>Polymer<span>★★★★★</span></li>
-                        <li>Angular<span>★★★☆☆</span></li>
+        <!-- /.container -->
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Skills</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="skill-item">
+                                <h4>
+                                    <strong>Front</strong>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-hexagon fa-stack-2x"></i>
+                                    <i class="fa icon-html5-alt icon-patch fa-stack-1x text-primary"></i>
+                                </span>
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-hexagon fa-stack-2x"></i>
+                                    <i class="fa icon-css3-alt icon-patch fa-stack-1x text-primary"></i>
+                                </span>
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-hexagon fa-stack-2x"></i>
+                                    <i class="fa icon-angular fa-stack-1x text-primary"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="skill-item">
+                                <h4>
+                                    <strong>Back</strong>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-hexagon fa-stack-2x"></i>
+                                    <i class="fa icon-nodejs icon-patch fa-stack-1x text-primary"></i>
+                                </span>
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-hexagon fa-stack-2x"></i>
+                                    <i class="fa icon-spring fa-stack-1x text-primary"></i>
+                                </span>
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-hexagon fa-stack-2x"></i>
+                                    <i class="fa icon-mongodb fa-stack-1x text-primary"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="skill-item">
+                                <h4>
+                                    <strong>Others</strong>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-hexagon fa-stack-2x"></i>
+                                    <i class="fa icon-git fa-stack-1x text-primary"></i>
+                                </span>
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-hexagon fa-stack-2x"></i>
+                                    <i class="fa icon-docker fa-stack-1x text-primary"></i>
+                                </span>
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-hexagon fa-stack-2x"></i>
+                                    <i class="fa icon-nginx icon-patch fa-stack-1x text-primary"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Timeline</h2>
+
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                        divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                        nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                        quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                        Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                        divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                        nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                        quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                        Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                        divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                        nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                        quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                        Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                        divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                        nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                        quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                        Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                        divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                        nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                        quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                        Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                        divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                        nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                        quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                        Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                        divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                        nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                        quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                        Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
-                <li>Back-end</li>
-                    <ul>
-                        <li>Node.js<span>★★★★☆</span></li>
-                        <li>Spring<span>★★★★☆</span></li>
-                        <li>MongoDB<span>★★★☆☆</span></li>
-                    </ul>
-                <li>DevOps</li>
-                    <ul>
-                        <li>Docker<span>★★★★☆</span></li>
-                        <li>Jenkins<span>★★★★★</span></li>
-                    </ul>
-            </ul>
-        </div>
-        <div>
-            <h3>Languages</h3>
-            <ul>
-                <li>French ★★★★★</li>
-                <li>English ★★★☆☆</li>
-            </ul>
-        </div>
-        <div>
-            <h3>Interests</h3>
-            <ul>
-                <li>Kinball</li>
-                <li>Voyages</li>
-            </ul>
+                </div>
+            </div>
         </div>
     </aside>
-    <main>
-        <header>
-            <h1>François-Xavier GENTILHOMME</h1>
-            <p>Full-stack developer</p>
-        </header>
-        <section>
-            <h2>Experiences</h2>
-            <article class="experience-article">
-                <div class="article-title">
-                    <h3>Full-stack developer</h3>
-                    <span>MyScript, FR<br />2011 - now</span>
+
+    <!-- Footer -->
+    <footer class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>François-Xavier GENTILHOMME</strong>
+                    </h4>
+                    <p>3 quai Ferdinand Favre
+                        <br>44000 Nantes, France</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (+33) 634583418</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">gentilhomme.fx@outlook.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-stack-overflow fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
                 </div>
-                <p></p>
-            </article>
-            <article class="experience-article">
-                <div class="article-title">
-                    <h3>Software developer</h3>
-                    <span>MyScript (formerly VisionObjects), FR<br />2010 - 2011</span>
-                </div>
-                <p></p>
-            </article>
-            <article class="experience-article">
-                <div class="article-title">
-                    <h3>Intern in electronic design</h3>
-                    <span>Universitatea Politehnica Timişoara, RO<br />April - July 2009</span>
-                </div>
-                <p></p>
-            </article>
-        </section>
-        <section>
-            <h2>Cursus</h2>
-            <article>
-                <h3>Professional License in IoT (LP SEICOM)</h3>
-                <span>Université de Nantes, IUT<br />Nantes, FR - 2010-2011</span>
-            </article>
-            <article>
-                <h3>Bachelor of Science in computing</h3>
-                <span>University of Plymouth<br />Plymouth, UK - 2009-2010</span>
-            </article>
-            <article>
-                <h3>Diploma in electronics and computing (DUT GEII)</h3>
-                <span>Université d'Angers<br />Angers, FR - 2007-2009</span>
-            </article>
-        </section>
-    </main>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+        // Closes the sidebar menu
+        $("#menu-close").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+        // Opens the sidebar menu
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+        // Scrolls to the selected menu item on the page
+        $(function () {
+            $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') ||
+                    location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+        //#to-top button appears after scrolling
+        var fixed = false;
+        $(document).scroll(function () {
+            if ($(this).scrollTop() > 250) {
+                if (!fixed) {
+                    fixed = true;
+                    // $('#to-top').css({position:'fixed', display:'block'});
+                    $('#to-top').show("slow", function () {
+                        $('#to-top').css({
+                            position: 'fixed',
+                            display: 'block'
+                        });
+                    });
+                }
+            } else {
+                if (fixed) {
+                    fixed = false;
+                    $('#to-top').hide("slow", function () {
+                        $('#to-top').css({
+                            display: 'none'
+                        });
+                    });
+                }
+            }
+        });
+        // Disable Google Maps scrolling
+        // See http://stackoverflow.com/a/25904582/1607849
+        // Disable scroll zooming and bind back the click event
+        var onMapMouseleaveHandler = function (event) {
+            var that = $(this);
+            that.on('click', onMapClickHandler);
+            that.off('mouseleave', onMapMouseleaveHandler);
+            that.find('iframe').css("pointer-events", "none");
+        }
+        var onMapClickHandler = function (event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+        $('.map').on('click', onMapClickHandler);
+    </script>
+
 </body>
 
 </html>
